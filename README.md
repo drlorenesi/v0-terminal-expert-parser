@@ -31,26 +31,26 @@ A modern web application built with Next.js that parses and visualizes terminal 
 
 1. Clone the repository:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/terminal-export-parser.git
    cd terminal-export-parser
-   \`\`\`
+   ```
 
 2. Install dependencies:
 
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
-   \`\`\`
+   ```
 
 3. Run the development server:
 
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+   ```
 
 4. Open http://localhost:3000 in your browser to see the application.
 
@@ -65,10 +65,10 @@ A modern web application built with Next.js that parses and visualizes terminal 
 
 The application can be configured through environment variables in a .env.local file:
 
-\`\`\`text
+```text
 ## Maximum file size for uploads (in MB)
 NEXT_PUBLIC_MAX_UPLOAD_SIZE=10
-\`\`\`
+```
 
 To use these environment variables:
 
