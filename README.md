@@ -25,7 +25,7 @@ A modern web application built with Next.js that parses and visualizes terminal 
 ### Prerequisites
 
 - Node.js 18.x or higher
-- npm or yarn
+- pnpn or npm
 
 ### Installation
 
@@ -39,9 +39,9 @@ A modern web application built with Next.js that parses and visualizes terminal 
 2. Install dependencies:
 
    ```bash
-   npm install
+   pnpm install
    # or
-   yarn install
+   npm install
    ```
 
 3. Run the development server:
@@ -49,7 +49,7 @@ A modern web application built with Next.js that parses and visualizes terminal 
    ```bash
    npm run dev
    # or
-   yarn dev
+   pnpm dev
    ```
 
 4. Open http://localhost:3000 in your browser to see the application.
