@@ -63,7 +63,7 @@ A modern web application built with Next.js that parses and visualizes terminal 
 
 ## Configuration
 
-The application can be configured through environment variables in a .env.local file:
+The application can be configured through environment variables in a `.env.local` file:
 
 ```text
 ## Maximum file size for uploads (in MB)
@@ -72,7 +72,7 @@ NEXT_PUBLIC_MAX_UPLOAD_SIZE=10
 
 To use these environment variables:
 
-Copy the .env.local.example file to .env.local
+Copy the `.env.local.example` file to `.env.local`
 Modify the values as needed
 Restart the development server if it's running
 The default maximum upload size is 10 MB if not specified.
