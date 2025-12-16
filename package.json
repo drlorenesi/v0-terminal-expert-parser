@@ -1,26 +1,17 @@
 {
-  "name": "terminal-export-parser",
+  "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
-  "description": "A Next.js application for parsing and displaying terminal expert output files",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/drlorenesi/v0-terminal-expert-parser.git"
-  },
-  "license": "MIT",
-  "author": "Diego Lorenesi",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "start": "next start",
-    "type-check": "tsc --noEmit"
+    "start": "next start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "1.2.2",
-    "@radix-ui/react-alert-dialog": "^1.1.4",
+    "@radix-ui/react-alert-dialog": "1.1.4",
     "@radix-ui/react-aspect-ratio": "1.1.1",
     "@radix-ui/react-avatar": "1.1.2",
     "@radix-ui/react-checkbox": "1.1.3",
@@ -36,10 +27,10 @@
     "@radix-ui/react-progress": "1.1.1",
     "@radix-ui/react-radio-group": "1.2.2",
     "@radix-ui/react-scroll-area": "1.2.2",
-    "@radix-ui/react-select": "^2.1.4",
+    "@radix-ui/react-select": "2.1.4",
     "@radix-ui/react-separator": "1.1.1",
     "@radix-ui/react-slider": "1.2.2",
-    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-slot": "1.1.1",
     "@radix-ui/react-switch": "1.1.2",
     "@radix-ui/react-tabs": "1.1.2",
     "@radix-ui/react-toast": "1.2.4",
@@ -55,36 +46,27 @@
     "embla-carousel-react": "8.5.1",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
-    "next": "15.5.9",
+    "next": "15.2.6",
     "next-themes": "^0.4.6",
-    "react": "19.2.2",
-    "react-dom": "19.2.2",
+    "react": "^19",
+    "react-day-picker": "9.8.0",
+    "react-dom": "^19",
     "react-hook-form": "^7.60.0",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.4",
     "sonner": "^1.7.4",
-    "tailwind-merge": "^3.3.1",
+    "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^1.1.2",
-    "xlsx": "0.18.5",
+    "xlsx": "latest",
     "zod": "3.25.76"
   },
   "devDependencies": {
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@typescript-eslint/eslint-plugin": "^8.19.1",
-    "@typescript-eslint/parser": "^8.19.1",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.9",
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
-    "tailwindcss-animate": "^1.0.7",
     "typescript": "^5"
-  },
-  "engines": {
-    "node": ">=18.17.0",
-    "npm": ">=9.0.0"
   }
 }
